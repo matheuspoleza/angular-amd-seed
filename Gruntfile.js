@@ -3,17 +3,21 @@ module.exports = function(grunt) {
   // Project configuration.
   grunt.initConfig({
     pkg: grunt.file.readJSON('package.json'),
-    bower: {
-      install: {
-        options: {
-          targetDir: 'src/libs',
-          install: true,
-          verbose: false,
-          cleanTargetDir: false,
-          cleanBowerDir: true,
-          bowerOptions: {}
-        }
-      }
+    copy : {
+      main: {
+        files: [
+          {
+            expand: true,
+            flatten: true,
+            src: [
+              'bower_components/**/*.min.js',
+              'bower_components/**/*.min.js.map',
+              'bower_components/requirejs/require.js'
+            ],
+            dest: 'src/libs'
+          },
+        ],
+      },
     },
     'http-server': {
       dev: {
@@ -29,11 +33,10 @@ module.exports = function(grunt) {
 
   // Load the plugin that provides the "copy" task.
   grunt.loadNpmTasks('grunt-http-server');
-  grunt.loadNpmTasks('grunt-bower-task');
+  grunt.loadNpmTasks('grunt-contrib-copy');
 
   // Default task(s).
-  grunt.registerTask('default', ['bower']);
-
+  grunt.registerTask('build', ['copy']);
   grunt.registerTask('start', ['http-server']);
 
 };

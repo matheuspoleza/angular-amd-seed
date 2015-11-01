@@ -1,13 +1,8 @@
-require.config({
-  baseUrl: "src/app",
-  paths: {
-      'angular': '../libs/angular/angular',
-      'angular-route': '../libs/angular-route/angular-route',
-      'angularAMD': '../libs/angularAMD/angularAMD'
-  },
-  shim: {
-    'angularAMD': ['angular'],
-    'angular-route': ['angular']
-  },
-  deps: ['app']
+define(['src/app/config/dependencies.js', 'src/app/config/path.js'], function(dependencies, paths){
+  require.config({
+    baseUrl: 'src/app',
+    paths: paths,
+    shim: dependencies,
+    deps: ['app']
+  });
 });

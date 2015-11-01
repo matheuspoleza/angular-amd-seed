@@ -6,10 +6,7 @@
     "angular-route": "1.2.16",
     "angularAMD": "0.2.1",
     "requirejs": "2.1.14",
-    "es5-shim": "~3.4.0",
-    "json3": "~3.3.2",
     "angular-resource": "1.2.16",
-    "angular-ui-router": "~0.2.10",
     "bootstrap": "~3.2.0"
   }
 }
