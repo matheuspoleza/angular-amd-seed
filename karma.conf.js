@@ -12,20 +12,24 @@ module.exports = function (config) {
 
         // frameworks to use
         // available frameworks: https://npmjs.org/browse/keyword/karma-adapter
-        frameworks: ['mocha', 'requirejs'],
+        frameworks: ['jasmine', 'requirejs'],
 
         // list of files / patterns to load in the browser
         files: [
             {
-              pattern: app_folder + '**/*.js',
+              pattern: app_folder + '/**/*.js',
               included: false
             },
             {
-              pattern: app_folder + '*.js',
+              pattern: app_folder + '/*.js',
               included: false
             },
             {
-              pattern: test_folder + '**/*.js',
+              pattern: app_folder + '../libs/*.js',
+              included: false
+            },
+            {
+              pattern: test_folder + '/**/*.js',
               included: false
             },
             'src/spec/main.js',

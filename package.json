@@ -2,6 +2,7 @@
   "name": "beginner-amd",
   "version": "1.0.0",
   "dependencies": {
+    "chai": "^3.4.0",
     "grunt": "^0.4.5",
     "grunt-bower-task": "~0.4.0",
     "grunt-concat-in-order": "^0.1.6",
@@ -14,7 +15,10 @@
     "grunt-http-server": "^1.13.0",
     "grunt-karma": "^0.12.1",
     "grunt-preprocess": "~4.0.0",
+    "jasmine": "^2.3.2",
+    "jasmine-core": "^2.3.4",
     "karma": "^0.13.14",
+    "karma-jasmine": "^0.3.6",
     "load-grunt-tasks": "^0.4.0",
     "mocha": "^2.3.3"
   }

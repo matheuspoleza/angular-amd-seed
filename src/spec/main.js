@@ -4,7 +4,6 @@
     Create list of file to run in test.  Making sure that app_test.js is
     always the first to run
     */
-    console.log('main.js');
     var firstFile, firstFileREGEXP = /app_test\.js$/i, testFiles = [], testFilesREGEXP = /(spec|test)\.js$/i;
 
     Object.keys(window.__karma__.files).forEach(function (file) {
@@ -19,9 +18,9 @@
         testFiles.unshift(firstFile);
     }
 
-    require(['base/src/app/config/dependencies.js', 'base/src/app/config/path.js'], function(dependencies,path){
+    require(['/base/src/app/config/dependencies.js', '/base/src/app/config/path.js'], function(dependencies,path){
       require.config({
-          baseUrl: 'src/app',
+          baseUrl: '/base/src/app',
           paths: path,
           shim: dependencies,
           deps: testFiles,
