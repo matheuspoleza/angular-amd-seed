@@ -47,6 +47,7 @@ module.exports = function(grunt) {
   // Default task(s).
   grunt.registerTask('build', ['copy']);
   grunt.registerTask('test', ['karma']);
+  grunt.registerTask('default', ['copy'], ['karma']);
   grunt.registerTask('start', ['http-server']);
 
 };
