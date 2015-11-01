@@ -3,6 +3,13 @@ module.exports = function(grunt) {
   // Project configuration.
   grunt.initConfig({
     pkg: grunt.file.readJSON('package.json'),
+
+    karma: {
+      unit: {
+        configFile: 'karma.conf.js'
+      }
+    },
+
     copy : {
       main: {
         files: [
@@ -19,6 +26,7 @@ module.exports = function(grunt) {
         ],
       },
     },
+
     'http-server': {
       dev: {
         port: 9000,
@@ -34,9 +42,11 @@ module.exports = function(grunt) {
   // Load the plugin that provides the "copy" task.
   grunt.loadNpmTasks('grunt-http-server');
   grunt.loadNpmTasks('grunt-contrib-copy');
+  grunt.loadNpmTasks('grunt-karma');
 
   // Default task(s).
   grunt.registerTask('build', ['copy']);
+  grunt.registerTask('test', ['karma']);
   grunt.registerTask('start', ['http-server']);
 
 };
