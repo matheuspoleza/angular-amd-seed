@@ -1,5 +1,5 @@
 define(['app'], function (app) {
-    app.controller('HomeCtrl', function ($scope) {
+    app.controller('HomeController', function ($scope) {
         $scope.message = 'Home Page';
     });
 });

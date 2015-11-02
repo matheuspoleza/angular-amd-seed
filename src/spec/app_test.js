@@ -1,5 +1,4 @@
 define(['app', 'angularAMD'], function (app, angularAMD) {
-  console.log(app);
   describe('app.js', function () {
       console.log('### Running app_test.js: ');
 
