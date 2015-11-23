@@ -1,6 +1,6 @@
 ## angularAMD app
 
-# Instalação
+# Get started
 - bower install
 - npm install
 - grunt build
