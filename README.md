@@ -19,3 +19,5 @@ $ grunt build
 ```sh
 $ grunt start
 ```
+## Thats all! See server running :smile:
+![server running](localhost.png)
