@@ -27,3 +27,7 @@ $ grunt start
 ```
 ## Thats all! See server running :smile:
 ![server running](assets/localhost.png)
+
+## License
+
+[MIT](https://github.com/fdaciuk/licenses/blob/master/MIT-LICENSE.md) © Fernando Daciuk.
