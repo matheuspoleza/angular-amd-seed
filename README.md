@@ -1,11 +1,10 @@
 ## beginner-amd
 
-Beginner AMD is a sample angularAmd app. Its provide for you all structure, include:
-- unit testing
-- build system
-- editor config
-- interface testing with dalekjs
-- and more ... 
+Beginner AMD is a sample angularAMD app. Its provide all structure necessary, include:
+- [Unit Testing](#unit)
+- [Build System](#build)
+- [Editor Config](#editor)
+- [Interface Testing - dalekjs](#interface)
 
 # Install
 
