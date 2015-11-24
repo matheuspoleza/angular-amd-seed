@@ -1,7 +1,21 @@
-## angularAMD app
+## beginner-amd
 
-# Get started
-- bower install
-- npm install
-- grunt build
-- grunt start
+# Install
+
+```sh
+$ bower install
+```
+
+```sh
+$ npm install
+```
+
+# Getting started
+
+```sh
+$ grunt build
+```
+
+```sh
+$ grunt start
+```
