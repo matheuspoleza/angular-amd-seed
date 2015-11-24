@@ -20,4 +20,4 @@ $ grunt build
 $ grunt start
 ```
 ## Thats all! See server running :smile:
-![server running](localhost.png)
+![server running](assets/localhost.png)
