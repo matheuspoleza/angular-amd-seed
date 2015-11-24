@@ -30,4 +30,4 @@ $ grunt start
 
 ## License
 
-[MIT](https://github.com/fdaciuk/licenses/blob/master/MIT-LICENSE.md) © Fernando Daciuk.
+[MIT](https://github.com/fdaciuk/licenses/blob/master/MIT-LICENSE.md) © Matheus Poleza.
