@@ -1,2 +1,3 @@
 node_modules/
-src/libs/
+src/libs/*.min.js
+src/libs/*.min.js.map
