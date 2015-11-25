@@ -1,4 +1,4 @@
-## beginner-angular-amd  ![travis](https://travis-ci.org/matheuspoleza/beginner-angular-amd.svg?branch=master)
+# beginner-angular-amd  ![travis](https://travis-ci.org/matheuspoleza/beginner-angular-amd.svg?branch=master)
 
 Its a sample angularAMD app. Its provide all structure necessary, include:
 - [x] [Unit Testing](#unit)
@@ -6,7 +6,16 @@ Its a sample angularAMD app. Its provide all structure necessary, include:
 - [x] [Editor Config](#editor)
 - [ ] [Interface Testing - dalekjs](#interface)
 
-# Install
+## Whats AngularAMD?
+AngularAMD is an utility that facilitates the use of RequireJS in AngularJS applications supporting on-demand loading of 3rd party modules such as angular-ui.
+
+## Why use Modular Javascript / AMD? 
+- Provides a clear proposal for how to approach defining flexible modules.
+- Significantly cleaner than the present global namespace and <script> tag solutions many of us rely on. There's a clean way to declare stand-alone modules and dependencies they may have.
+- Module definitions are encapsulated, helping us to avoid pollution of the global namespace.
+- It's possible to lazy load scripts if this is needed.
+
+## Install
 
 ### Install dependencies
 
@@ -25,16 +34,16 @@ $ npm install -g grunt-cli
 $ grunt build
 ```
 
-# Getting started
+## Getting started
 
 ```sh
 $ grunt start
 ```
 
-## Thats all! See server running :smile:
+### Thats all! See server running :smile:
 ![server running](assets/localhost.png)
 
-## Running Unit tests
+### Running Unit tests
 
 ```sh
 $ grunt test
