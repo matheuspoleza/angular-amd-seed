@@ -17,9 +17,9 @@ module.exports = function(grunt) {
             expand: true,
             flatten: true,
             src: [
-              'bower_components/**/*.min.js',
-              'bower_components/**/*.min.js.map',
-              'bower_components/requirejs/require.js'
+              'node_modules/**/*.min.js',
+              'node_modules/**/*.min.js.map',
+              'node_modules/requirejs/require.js'
             ],
             dest: 'src/libs'
           },
