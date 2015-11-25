@@ -6,7 +6,7 @@ define(['app', 'angularAMD', 'home/home_controller'], function (app, angularAMD)
     beforeEach(function(){
       angularAMD.inject(function($rootScope, $controller){
         scope = $rootScope.$new();
-        controller = $controller('HomeController', {
+        controller = $controller('HomeCtrl', {
           $scope : scope
         });
       })
