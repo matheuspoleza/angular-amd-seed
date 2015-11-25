@@ -8,25 +8,42 @@ Beginner AMD is a sample angularAMD app. Its provide all structure necessary, in
 
 # Install
 
-```sh
-$ bower install
-```
+### Install dependencies
 
 ```sh
 $ npm install
 ```
+### Install grunt (if necessary)
 
-# Getting started
+```sh
+$ npm install -g grunt-cli
+```
+
+### Building project
 
 ```sh
 $ grunt build
 ```
 
+# Getting started
+
 ```sh
 $ grunt start
 ```
+
 ## Thats all! See server running :smile:
 ![server running](assets/localhost.png)
+
+## Running Unit tests
+
+```sh
+$ grunt test
+```
+
+## Contribution
+
+Read the Guidelines:
+[Contribution](https://github.com/matheuspoleza/begginer-amd/blob/master/CONTRIBUTING.md)
 
 ## License
 
