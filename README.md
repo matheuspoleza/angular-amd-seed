@@ -1,4 +1,4 @@
-## beginner-amd
+## beginner-amd  ![travis](https://travis-ci.org/matheuspoleza/begginer-amd.svg?branch=master)
 
 Beginner AMD is a sample angularAMD app. Its provide all structure necessary, include:
 - [x] [Unit Testing](#unit)
