@@ -36,17 +36,26 @@ module.exports = function(grunt) {
         ext: 'html',
         runInBackground: false
       }
+    },
+
+    dalek: {
+      dist: {
+        src: ['spec/e2e/home-spec.js']
+      }
     }
+
   });
 
   // Load the plugin that provides the "copy" task.
   grunt.loadNpmTasks('grunt-http-server');
   grunt.loadNpmTasks('grunt-contrib-copy');
   grunt.loadNpmTasks('grunt-karma');
+  grunt.loadNpmTasks('grunt-dalek');
 
   // Default task(s).
   grunt.registerTask('build', ['copy']);
   grunt.registerTask('test', ['karma']);
+  grunt.registerTask('e2e', ['dalek']);
   grunt.registerTask('start', ['http-server']);
 
 };
