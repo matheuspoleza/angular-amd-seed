@@ -50,6 +50,18 @@ $ grunt start
 $ grunt test
 ```
 
+### Running E2E tests
+
+Open new terminal window and run your server:
+```sh
+$ grunt start
+```
+In the other terminal run:
+```sh
+$ grunt e2e
+```
+
+
 ## Contribution
 
 Read the Guidelines:
