@@ -3,8 +3,8 @@
 Its a sample angularAMD app. Its provide all structure necessary, include:
 - [x] [Unit Testing](#unit)
 - [x] [Build System](#build)
-- [x] [Editor Config](#editor)
-- [ ] [Interface Testing - dalekjs](#interface)
+- [x] [Sample app](#sample)
+- [x] [Interface Testing - dalekjs](#interface)
 
 ## What is angularAMD?
 AngularAMD is an utility that facilitates the use of RequireJS in AngularJS applications supporting on-demand loading of 3rd party modules such as angular-ui.
