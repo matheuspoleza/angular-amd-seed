@@ -1,3 +1,4 @@
 node_modules/
 src/libs/*.min.js
 src/libs/*.min.js.map
+spec/e2e/screenshots/

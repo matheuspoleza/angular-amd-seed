@@ -3,7 +3,7 @@ module.exports = function (config) {
     'use strict';
 
     var app_folder = 'src/app/';
-    var test_folder = 'src/spec';
+    var test_folder = 'spec/unit';
 
     config.set({
 
@@ -32,7 +32,7 @@ module.exports = function (config) {
               pattern: test_folder + '/**/*.js',
               included: false
             },
-            'src/spec/main.js',
+            'spec/unit/main.js',
         ],
 
         // list of files to exclude
