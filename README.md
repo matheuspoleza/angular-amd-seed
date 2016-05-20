@@ -1,4 +1,4 @@
-# beginner-angular-amd  ![travis](https://travis-ci.org/matheuspoleza/beginner-angular-amd.svg?branch=master)
+# angular-amd-seed  ![travis](https://travis-ci.org/matheuspoleza/angular-amd-seed.svg?branch=master)
 
 Its a sample angularAMD app. Its provide all structure necessary, include:
 - [x] [Unit Testing](#unit)
