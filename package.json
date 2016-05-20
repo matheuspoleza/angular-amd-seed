@@ -1,5 +1,5 @@
 {
-  "name": "beginner-angular-amd",
+  "name": "angular-amd-seed",
   "version": "0.0.1",
   "dependencies": {
     "angular": "1.4.8",
